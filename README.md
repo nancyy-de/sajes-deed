@@ -1,4 +1,4 @@
-# Sale Deed PDF Generator
+# Sales Deed PDF Generator
 
 This Node.js application generates a downloadable PDF sale deed based on user input.
 
