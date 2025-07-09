@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sale Deed Form</title>
+</head>
+<body>
+  <h2>Sale Deed Entry</h2>
+  <form action="/generate" method="POST">
+    <label>Full Name:<br><input name="name" required /></label><br><br>
+    <label>Father’s Name:<br><input name="father_name" required /></label><br><br>
+    <label>Property Size (sq.ft):<br><input name="property_size" type="number" required /></label><br><br>
+    <label>Sale Amount (₹):<br><input name="sale_amount" type="number" required /></label><br><br>
+    <label>Date:<br><input name="date" type="date" required /></label><br><br>
+    <button type="submit">Generate PDF</button>
+  </form>
+</body>
+</html>
